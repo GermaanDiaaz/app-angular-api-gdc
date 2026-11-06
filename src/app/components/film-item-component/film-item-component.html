@@ -1,0 +1,14 @@
+<section class="card" style="max-width: 320px">
+    <div class="card-body">
+        <h4 class="card-title">{{film()?.title}}</h4>
+        <p class="card-text">({{film()?.director}})</p>
+        <p class="card-text">({{film()?.producer}})</p>
+
+        <button type="button" class="btn-solid"
+            routerLink="/film-modal"
+            routerLinkActive="active-button"
+            ariaCurrentWhenActive="page">
+            Ver detalles
+        </button>
+    </div>
+</section>
